@@ -53,31 +53,28 @@ a:hover {
   height: 157px;
   margin: 0 auto;
   position: relative;
-  border: 1px solid #000000;
 }
 
 .logo {
   width: 228px;
   height: 134px;
   bottom: 0;
-  border: 2px solid #000000;
   display: inline-block;
 }
 
 .top-mid-block {
-  width: 600px;
+  width: 558px;
   height: 120px;
   margin: 2px 11px 0px 35px;
   padding: 20px 20px 0px;
-  border: 2px solid #000000;
   display: inline-block;
   position: absolute;
+  text-align: center;
 }
 
 .top-right-block {
   width: 189px;
   height: 104px;
-  border: 1px solid #000;
   display: inline-block;
   position: absolute;
   right: 0px;
@@ -85,55 +82,76 @@ a:hover {
 }
 
 .work-time {
-  border: 1px solid #000;
   width: 188px;
   height: 22px;
+  color: #858585;
+  font: 13px Roboto, sans-serif;
+  text-align: right;
 }
 
 .number {
-  border: 1px solid #000;
   width: 188px;
   height: 28px;
+  font: 20px Roboto, sans-serif;
+  text-align: right;
 }
 
 .mail {
-  border: 1px solid #000;
   width: 188px;
   height: 22px;
+  font: 13px Roboto, sans-serif;
+  text-align: right;
 }
 
 .call-me {
-  border: 1px solid #000;
-  width: 156px;
+  width: 130px;
   height: 18px;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: 32px;
+  font: 13px Roboto, sans-serif;
+  text-decoration: underline;
+  color: #fe6f00;
+  font-weight: 700;
+  margin-left: 58px;
+}
+
+.call-me-text {
+  margin-right: 0;
+  width: 130px;
+  text-align: right;
 }
 
 .ico-1 {
-  width: 107px;
-  height: 82px;
+  width: 100px;
+  height: 120px;
+  margin-right: 0;
 }
 
 .ico-2 {
-  width: 93px;
-  height: 89px;
+  width: 100px;
+  height: 120px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .ico-3 {
-  width: 102px;
-  height: 81px;
+  width: 100px;
+  height: 120px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .ico-4 {
-  width: 93px;
-  height: 80px;
+  width: 100px;
+  height: 120px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .ico-5 {
-  width: 77px;
-  height: 79px;
+  width: 100px;
+  height: 120px;
+  margin-left: 0;
 }
 
 .ico-1,
@@ -141,7 +159,6 @@ a:hover {
 .ico-3,
 .ico-4,
 .ico-5 {
-  border: 1px solid #000;
   display: inline-block;
 }
 
@@ -170,10 +187,39 @@ a:hover {
   height: auto;
 }
 
-.box-ico-1,
-.box-ico-2,
-.box-ico-3,
-.box-ico-4,
-.box-ico-5 {
-  display: inline-block;
+.img-1-ico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-2-ico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-3-ico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-4-ico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-5-ico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.under-ico-text {
+  width: auto;
+  height: auto;
+  font: 11px Roboto, sans-serif;
+  text-align: center;
 }
