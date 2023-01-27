@@ -71,6 +71,7 @@ a:hover {
   padding: 20px 20px 0px;
   border: 2px solid #000000;
   display: inline-block;
+  position: absolute;
 }
 
 .top-right-block {
@@ -108,4 +109,71 @@ a:hover {
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 32px;
+}
+
+.ico-1 {
+  width: 107px;
+  height: 82px;
+}
+
+.ico-2 {
+  width: 93px;
+  height: 89px;
+}
+
+.ico-3 {
+  width: 102px;
+  height: 81px;
+}
+
+.ico-4 {
+  width: 93px;
+  height: 80px;
+}
+
+.ico-5 {
+  width: 77px;
+  height: 79px;
+}
+
+.ico-1,
+.ico-2,
+.ico-3,
+.ico-4,
+.ico-5 {
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+.box-1-ico {
+  width: 107px;
+  height: auto;
+}
+
+.box-2-ico {
+  width: 93px;
+  height: auto;
+}
+
+.box-3-ico {
+  width: 102px;
+  height: auto;
+}
+
+.box-4-ico {
+  width: 93px;
+  height: auto;
+}
+
+.box-5-ico {
+  width: 77px;
+  height: auto;
+}
+
+.box-ico-1,
+.box-ico-2,
+.box-ico-3,
+.box-ico-4,
+.box-ico-5 {
+  display: inline-block;
 }
