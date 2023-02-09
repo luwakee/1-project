@@ -225,7 +225,7 @@ a:hover {
 }
 
 .row {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   width: 1180px;
   height: 270px;
   display: inline-block;
@@ -235,12 +235,13 @@ a:hover {
   border-bottom: 1px dashed #66a72d;
   border-right: 1px dashed #66a72d;
   border-left: 1px dashed #66a72d;
+  border-top: 1px dashed #66a72d;
   width: 923px;
   height: 223px;
 }
 
 .slider {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   width: 920px;
   height: 191px;
   margin-top: 11px;
@@ -289,13 +290,13 @@ a:hover {
 }
 
 .right-menu {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   width: 208px;
   height: 270px;
 }
 
 .nav-bar-over-slider {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   width: 677px;
   height: 43px;
   display: inline-block;
@@ -312,6 +313,8 @@ a:hover {
   text-align: center;
   color: #000;
   font: 15px Roboto, sans-serif;
+  padding-top: 10px;
+  background-color: #fff;
 }
 
 .but-2 {
@@ -324,6 +327,7 @@ a:hover {
   text-align: center;
   color: #66a72d;
   font: 15px Roboto, sans-serif;
+  padding-top: 10px;
 }
 
 .but-3 {
@@ -336,6 +340,7 @@ a:hover {
   text-align: center;
   color: #66a72d;
   font: 15px Roboto, sans-serif;
+  padding-top: 10px;
 }
 
 .but-4 {
@@ -348,6 +353,7 @@ a:hover {
   text-align: center;
   color: #66a72d;
   font: 15px Roboto, sans-serif;
+  padding-top: 10px;
 }
 
 .but-5 {
@@ -360,6 +366,7 @@ a:hover {
   text-align: center;
   color: #66a72d;
   font: 15px Roboto, sans-serif;
+  padding-top: 10px;
 }
 
 .but-6 {
@@ -372,4 +379,5 @@ a:hover {
   text-align: center;
   color: #66a72d;
   font: 15px Roboto, sans-serif;
+  padding-top: 10px;
 }
