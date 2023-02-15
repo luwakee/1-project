@@ -280,6 +280,20 @@ a:hover {
   margin-right: 3px;
 }
 
+.under-slider-text {
+  color: #fe6f00;
+  font: 14px Roboto, Sans-serif;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+
+.variants-text {
+  color: #919191;
+  font: 12px Roboto, Sans-serif;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
 .sling-1,
 .sling-2,
 .sling-3,
@@ -371,7 +385,7 @@ a:hover {
 
 .but-6 {
   margin-left: 0;
-  width: 75px; /* Line 367: temporary solution, then fix it(original width is 105 px)*/
+  width: 80px; /* Line 367: temporary solution, then fix it(original width is 105 px)*/
   height: 42px;
   /* border: 0.5px solid #000; */
   display: inline-block;
@@ -383,20 +397,34 @@ a:hover {
 }
 
 .search-panel {
-  border: 1px solid #000;
+  border-top: 1px dashed #66a72d;
+  border-right: 1px dashed #66a72d;
+  border-left: 1px dashed #66a72d;
   display: inline-block;
+  position: absolute;
+  width: 246px;
+  height: 43px;
+  background-color: #fff;
 }
 
 .search-textbox {
-  border: 1px solid #858585;
+  border: 1px solid #e6e6e6;
+  width: 192px;
+  height: 34px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
 }
 
-.under-slider-text {
-  color: #fe6f00;
+.search-textbox .search-text {
   font: 14px Roboto, Sans-serif;
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-bottom: 11px;
+  color: #919191;
 }
 
-.variants-text {
-  color: #919191;
-  font: 12px Roboto, Sans-serif;
+.search-panel .search-but {
+  /*пока хз как исправить*/
 }
