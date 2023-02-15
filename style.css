@@ -381,3 +381,22 @@ a:hover {
   font: 15px Roboto, sans-serif;
   padding-top: 10px;
 }
+
+.search-panel {
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+.search-textbox {
+  border: 1px solid #858585;
+}
+
+.under-slider-text {
+  color: #fe6f00;
+  font: 14px Roboto, Sans-serif;
+}
+
+.variants-text {
+  color: #919191;
+  font: 12px Roboto, Sans-serif;
+}
