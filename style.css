@@ -426,5 +426,41 @@ a:hover {
 }
 
 .search-panel .search-but {
-  /*пока хз как исправить*/
+  /*idk how to fix it*/
+}
+
+.right-menu {
+  width: 208px;
+  height: 249px;
+  border: 0.5px solid #000;
+}
+
+.right-menu-but1,
+.right-menu-but2,
+.right-menu-but3,
+.right-menu-but4 {
+  width: 207px;
+  height: 50px;
+  border: 1px solid #000;
+}
+
+.right-menu-but1 {
+  margin-bottom: 13px;
+}
+
+.right-menu-but2 {
+  margin-bottom: 13px;
+}
+
+.right-menu-but3 {
+  margin-bottom: 13px;
+}
+
+.right-menu-text {
+  color: #fe6f00;
+  font: 14px Roboto, Sans-serif;
+  text-align: left;
+}
+
+.right-menu-icons {
 }
